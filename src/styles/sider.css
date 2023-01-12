@@ -1,0 +1,24 @@
+
+
+/* sidebar CSS */
+
+
+.sider-container{
+
+    box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.04);
+    border-radius: 1.3em;
+    background-color: var(--white-cl);
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-footer{
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 4em;
+    margin-left: 2em;
+    
+}

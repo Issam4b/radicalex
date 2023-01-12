@@ -1,0 +1,32 @@
+/* GLOBAL CSS */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+
+/* Reset pages from existing CSS  */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* GLOBAL body CSS */
+
+body{
+    font-family: "Space Grotesk", sans-serif, serif;
+    background-color: var(--page-bg);
+
+
+}
+
+/* GLOBAL colors */
+
+:root{
+    --color-purple: #793EF5;
+    --bg-purple: #F6F5F9;
+    --page-bg: #F1F4F8;
+    --white-cl: white;
+}
+
+

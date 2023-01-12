@@ -1,0 +1,41 @@
+
+
+.dash-container{
+
+    display: grid;
+    grid-template-columns: 15% 80%;
+    height: 98vh;
+
+}
+
+/* .footer-container{
+
+    margin-left: 70rem;
+    
+} */
+
+.intern-container{
+    margin-left: 4em;
+    margin-top: 3em;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.btn-top-right{
+    background-color: var(--color-purple);
+    color: var(--white-cl);
+    border: none;
+    border-radius: 1em;
+    padding: 1em 3em;
+    font-weight: bold;
+
+}
+.space{
+    padding-right: 0.5em;
+    
+}
