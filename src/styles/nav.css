@@ -16,6 +16,7 @@
 
     margin-bottom: 5em;
     width: auto;
+    padding: 1em;
 
 }
 
@@ -37,6 +38,7 @@
 }
 
 .text-size{
-    font-weight: bold;
+    font-size: 1.2rem;
 
 }
+

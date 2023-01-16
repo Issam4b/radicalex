@@ -7,6 +7,7 @@ import apprenIcon from "../../assets/medal-star.svg"
 import internIcon from "../../assets/book.svg"
 import jobIcon from "../../assets/briefcase.svg"
 import settingIcon from "../../assets/setting-2.svg"
+import Ic from "../../assets/icno.png"
 
 
 
@@ -22,13 +23,13 @@ const Sider = () => {
       <img src={logo} className="nav-logo" alt="RadicalX"/>
            
       <Nav title="Dashboard" image={dashIcon} />
-      <Nav title="Apprenticeships" image={apprenIcon} />
+      <Nav title="Apprenticeships"  image={apprenIcon} />
       <Nav title="Internships" image={internIcon} isActive={true} />
       <Nav title="Jobs" image={jobIcon} />
       <Nav title="Settings" image={settingIcon} />
       
       <div className='nav-footer'>
-        <p>Adam Scott</p>
+        <Nav title="Adam Scott" image={Ic} />
       </div>
 
 

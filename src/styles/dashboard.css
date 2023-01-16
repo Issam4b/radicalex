@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 1.5em;
 
 }
 
@@ -30,12 +31,97 @@
     background-color: var(--color-purple);
     color: var(--white-cl);
     border: none;
-    border-radius: 1em;
-    padding: 1em 3em;
+    border-radius: .7em;
+    padding: .7em 2em;
     font-weight: bold;
+    font-size: 1rem;
 
 }
 .space{
     padding-right: 0.5em;
     
 }
+
+.text-container{
+    background-color: #F6F5F9;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    
+    padding: 1em 1em;
+    border-radius: .7em;
+    font-size: 1.2rem;
+
+
+}
+.another-cntnr{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 1em ;
+    margin: 1em 2em;
+    border-radius: .7em;
+}
+.spaceh3{
+    padding-bottom: 1em;
+
+}
+
+.spaceh6{
+    padding-bottom: 4em;
+}
+
+
+.another-cntnr-btn{
+    background-color: #F6F5F9;
+    color: var(--white-cl);
+    border: none;
+    border-radius: .5em;
+    padding: .5em .5em;
+    font-weight: bold;
+    font-size: .75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5em;
+
+  
+}
+.div-btn{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.thisweek-btn{
+    padding: .25em 1.2em;
+    background-color: var(--color-purple);
+    color: var(--white-cl);
+    font-size: 1rem;
+    border-radius: .5em;
+    border: none;
+    margin-right: .5em;
+    
+}
+.thismonth-btn{
+    padding: .25em 1.2em;
+    background-color: var(--white-cl);
+    font-size: 1rem;
+    border-radius: .5em;
+    border: none;
+    
+}
+.dates-btn{
+    padding: .25em 1.2em;
+    background-color: var(--white-cl);
+    font-size: 1rem;
+    border-radius: .5em;
+    border: none;
+
+}
+.calendar{
+    padding-right: .2em;
+    
+}
+

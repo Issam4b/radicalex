@@ -8,7 +8,7 @@ const Nav = ({image, title, isActive}) => {
 
     
     <div className={isActive ? "active-link" : "nav-dsp"}>
-      <img src={image} className='nav-space' />
+      <img src={image} className='nav-space' alt='' />
       <p className='text-size'>{title}</p>
       
     
